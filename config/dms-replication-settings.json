@@ -1,0 +1,21 @@
+{
+    "ChangeProcessingTuning": {
+        "BatchApplyPreserveTransaction": true
+    },
+    "FullLoadSettings": {
+        "MaxFullLoadSubTasks": 4,
+        "TargetTablePrepMode": "DO_NOTHING"
+    },
+    "Logging": {
+        "EnableLogging": true
+    },
+    "TargetMetadata": {
+        "BatchApplyEnabled": true,
+        "FullLobMode": false,
+        "LimitedSizeLobMode": true,
+        "LobMaxSize": 102400,
+        "InlineLobMaxSize": 0,
+        "LobChunkSize": 64,
+        "SupportLobs": true
+    }
+}
